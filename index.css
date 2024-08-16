@@ -12,7 +12,7 @@
     flex-direction: column;
     /* justify-content: center; */
     gap: 15px;
-    background-color: chocolate;
+    background-color: red;
     border: 3px solid black;
     border-radius: 25px;
     margin: 40px auto;
@@ -21,7 +21,9 @@
 }
 h1{
     text-align: center;
+    font-size: 3rem;
     margin-bottom: 15px;
+    color: wheat;
 }
 .guesses{
     display: flex;
@@ -34,12 +36,17 @@ h1{
     
 }
 .guesses > p{
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     text-align: center;
+    font-weight: 700;
+    padding-left: 25px;
+    padding-right: 25px;
 }
-.card > p{
+#remark{
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 2rem;
+    color: wheat;
+    font-weight: 600;
     padding-left: 25px;
     padding-right: 25px;
 }
